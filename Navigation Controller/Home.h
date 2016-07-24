@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "cellHome.h"
+//#import "DestinationDetails.h"
 
-@interface ViewController : UIViewController
+@interface Home : UIViewController
 
 
 @end

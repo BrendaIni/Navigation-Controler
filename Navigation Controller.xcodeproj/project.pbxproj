@@ -10,11 +10,18 @@
 		8514F5CC1D445D3F001AD776 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514F5CB1D445D3F001AD776 /* main.m */; };
 		8514F5CF1D445D3F001AD776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514F5CE1D445D3F001AD776 /* AppDelegate.m */; };
 		8514F5D21D445D3F001AD776 /* Navigation_Controller.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8514F5D01D445D3F001AD776 /* Navigation_Controller.xcdatamodeld */; };
-		8514F5D51D445D3F001AD776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514F5D41D445D3F001AD776 /* ViewController.m */; };
+		8514F5D51D445D3F001AD776 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514F5D41D445D3F001AD776 /* Home.m */; };
 		8514F5D81D445D3F001AD776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8514F5D61D445D3F001AD776 /* Main.storyboard */; };
 		8514F5DA1D445D3F001AD776 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8514F5D91D445D3F001AD776 /* Images.xcassets */; };
 		8514F5DD1D445D3F001AD776 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8514F5DB1D445D3F001AD776 /* LaunchScreen.xib */; };
 		8514F5E91D445D3F001AD776 /* Navigation_ControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514F5E81D445D3F001AD776 /* Navigation_ControllerTests.m */; };
+		8514F5F81D4463EB001AD776 /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 8514F5F61D4463EB001AD776 /* cellHome.m */; };
+		8514F5F91D4463EB001AD776 /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8514F5F71D4463EB001AD776 /* cellHome.xib */; };
+		8514F6011D446CEF001AD776 /* Chiapas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8514F5FC1D446CEF001AD776 /* Chiapas.jpeg */; };
+		8514F6021D446CEF001AD776 /* Jalisco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8514F5FD1D446CEF001AD776 /* Jalisco.jpg */; };
+		8514F6031D446CEF001AD776 /* Michoacan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8514F5FE1D446CEF001AD776 /* Michoacan.jpg */; };
+		8514F6041D446CEF001AD776 /* SanLuis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8514F5FF1D446CEF001AD776 /* SanLuis.jpg */; };
+		8514F6051D446CEF001AD776 /* Sinaloa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8514F6001D446CEF001AD776 /* Sinaloa.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +41,22 @@
 		8514F5CD1D445D3F001AD776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8514F5CE1D445D3F001AD776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8514F5D11D445D3F001AD776 /* Navigation_Controller.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Navigation_Controller.xcdatamodel; sourceTree = "<group>"; };
-		8514F5D31D445D3F001AD776 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8514F5D41D445D3F001AD776 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8514F5D31D445D3F001AD776 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		8514F5D41D445D3F001AD776 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
 		8514F5D71D445D3F001AD776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8514F5D91D445D3F001AD776 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8514F5DC1D445D3F001AD776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8514F5E21D445D3F001AD776 /* Navigation ControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Navigation ControllerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8514F5E71D445D3F001AD776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8514F5E81D445D3F001AD776 /* Navigation_ControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navigation_ControllerTests.m; sourceTree = "<group>"; };
+		8514F5F51D4463EB001AD776 /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
+		8514F5F61D4463EB001AD776 /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
+		8514F5F71D4463EB001AD776 /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
+		8514F5FC1D446CEF001AD776 /* Chiapas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chiapas.jpeg; sourceTree = "<group>"; };
+		8514F5FD1D446CEF001AD776 /* Jalisco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jalisco.jpg; sourceTree = "<group>"; };
+		8514F5FE1D446CEF001AD776 /* Michoacan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Michoacan.jpg; sourceTree = "<group>"; };
+		8514F5FF1D446CEF001AD776 /* SanLuis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanLuis.jpg; sourceTree = "<group>"; };
+		8514F6001D446CEF001AD776 /* Sinaloa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sinaloa.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,10 +98,10 @@
 		8514F5C81D445D3F001AD776 /* Navigation Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8514F5CD1D445D3F001AD776 /* AppDelegate.h */,
-				8514F5CE1D445D3F001AD776 /* AppDelegate.m */,
-				8514F5D31D445D3F001AD776 /* ViewController.h */,
-				8514F5D41D445D3F001AD776 /* ViewController.m */,
+				8514F5FB1D446CEF001AD776 /* images */,
+				8514F5F41D44636F001AD776 /* Cells */,
+				8514F5F31D445DCA001AD776 /* Main */,
+				8514F5F21D445D7A001AD776 /* Controllers */,
 				8514F5D61D445D3F001AD776 /* Main.storyboard */,
 				8514F5D91D445D3F001AD776 /* Images.xcassets */,
 				8514F5DB1D445D3F001AD776 /* LaunchScreen.xib */,
@@ -120,6 +135,46 @@
 				8514F5E71D445D3F001AD776 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8514F5F21D445D7A001AD776 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8514F5D31D445D3F001AD776 /* Home.h */,
+				8514F5D41D445D3F001AD776 /* Home.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8514F5F31D445DCA001AD776 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8514F5CD1D445D3F001AD776 /* AppDelegate.h */,
+				8514F5CE1D445D3F001AD776 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8514F5F41D44636F001AD776 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8514F5F51D4463EB001AD776 /* cellHome.h */,
+				8514F5F61D4463EB001AD776 /* cellHome.m */,
+				8514F5F71D4463EB001AD776 /* cellHome.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		8514F5FB1D446CEF001AD776 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8514F5FC1D446CEF001AD776 /* Chiapas.jpeg */,
+				8514F5FD1D446CEF001AD776 /* Jalisco.jpg */,
+				8514F5FF1D446CEF001AD776 /* SanLuis.jpg */,
+				8514F5FE1D446CEF001AD776 /* Michoacan.jpg */,
+				8514F6001D446CEF001AD776 /* Sinaloa.jpeg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +258,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8514F5D81D445D3F001AD776 /* Main.storyboard in Resources */,
+				8514F6041D446CEF001AD776 /* SanLuis.jpg in Resources */,
+				8514F6021D446CEF001AD776 /* Jalisco.jpg in Resources */,
 				8514F5DD1D445D3F001AD776 /* LaunchScreen.xib in Resources */,
+				8514F6051D446CEF001AD776 /* Sinaloa.jpeg in Resources */,
+				8514F5F91D4463EB001AD776 /* cellHome.xib in Resources */,
+				8514F6031D446CEF001AD776 /* Michoacan.jpg in Resources */,
 				8514F5DA1D445D3F001AD776 /* Images.xcassets in Resources */,
+				8514F6011D446CEF001AD776 /* Chiapas.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8514F5F81D4463EB001AD776 /* cellHome.m in Sources */,
 				8514F5CF1D445D3F001AD776 /* AppDelegate.m in Sources */,
 				8514F5CC1D445D3F001AD776 /* main.m in Sources */,
-				8514F5D51D445D3F001AD776 /* ViewController.m in Sources */,
+				8514F5D51D445D3F001AD776 /* Home.m in Sources */,
 				8514F5D21D445D3F001AD776 /* Navigation_Controller.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
