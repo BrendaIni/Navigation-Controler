@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.lblTitle.text          = self.destinationTitle;
+    self.lblDescription.text    = self.destinationDescription;
+    self.imgDestination.image   = [UIImage imageNamed:self.destinationPhoto];
+    
+    self.lblDescription.numberOfLines = 0;
+    [self.lblDescription sizeToFit];
 }
 
 - (void)didReceiveMemoryWarning {

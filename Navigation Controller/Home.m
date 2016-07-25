@@ -110,13 +110,13 @@
 /**********************************************************************************************/
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-//    if ([segue.destinationViewController isKindOfClass:[DestinationDetails class]]) {
- //       DestinationDetails *destination     = [segue destinationViewController];
-   //     destination.destinationTitle        = self.stTitleSelected;
-     //   destination.destinationDescription  = self.stDescriptionSelected;
-       // destination.destinationPhoto        = self.stPhotoSelected;
+   if ([segue.destinationViewController isKindOfClass:[DestinationDetails class]]) {
+        DestinationDetails *destination     = [segue destinationViewController];
+        destination.destinationTitle        = self.stTitleSelected;
+        destination.destinationDescription  = self.stDescriptionSelected;
+        destination.destinationPhoto        = self.stPhotoSelected;
         
-    //}
+    }
 }
 
 
