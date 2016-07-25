@@ -22,6 +22,7 @@
 		8514F6031D446CEF001AD776 /* Michoacan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8514F5FE1D446CEF001AD776 /* Michoacan.jpg */; };
 		8514F6041D446CEF001AD776 /* SanLuis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8514F5FF1D446CEF001AD776 /* SanLuis.jpg */; };
 		8514F6051D446CEF001AD776 /* Sinaloa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8514F6001D446CEF001AD776 /* Sinaloa.jpeg */; };
+		85C630821D45B4DC002FF1BF /* DestinationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C630811D45B4DC002FF1BF /* DestinationDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		8514F5FE1D446CEF001AD776 /* Michoacan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Michoacan.jpg; sourceTree = "<group>"; };
 		8514F5FF1D446CEF001AD776 /* SanLuis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SanLuis.jpg; sourceTree = "<group>"; };
 		8514F6001D446CEF001AD776 /* Sinaloa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sinaloa.jpeg; sourceTree = "<group>"; };
+		85C630801D45B4DC002FF1BF /* DestinationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationDetails.h; sourceTree = "<group>"; };
+		85C630811D45B4DC002FF1BF /* DestinationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 			children = (
 				8514F5D31D445D3F001AD776 /* Home.h */,
 				8514F5D41D445D3F001AD776 /* Home.m */,
+				85C630801D45B4DC002FF1BF /* DestinationDetails.h */,
+				85C630811D45B4DC002FF1BF /* DestinationDetails.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 				8514F5CC1D445D3F001AD776 /* main.m in Sources */,
 				8514F5D51D445D3F001AD776 /* Home.m in Sources */,
 				8514F5D21D445D3F001AD776 /* Navigation_Controller.xcdatamodeld in Sources */,
+				85C630821D45B4DC002FF1BF /* DestinationDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +488,7 @@
 				8514F5EE1D445D3F001AD776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8514F5EF1D445D3F001AD776 /* Build configuration list for PBXNativeTarget "Navigation ControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +497,7 @@
 				8514F5F11D445D3F001AD776 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

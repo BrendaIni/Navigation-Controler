@@ -108,7 +108,7 @@
 /**********************************************************************************************/
 #pragma mark - Navigation
 /**********************************************************************************************/
-//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
 //    if ([segue.destinationViewController isKindOfClass:[DestinationDetails class]]) {
  //       DestinationDetails *destination     = [segue destinationViewController];
@@ -117,7 +117,7 @@
        // destination.destinationPhoto        = self.stPhotoSelected;
         
     //}
-//}
+}
 
 
 @end
