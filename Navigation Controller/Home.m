@@ -14,6 +14,7 @@
 @property NSMutableArray *destinationDescriptions;
 @property NSMutableArray *destinationPhotos;
 
+
 @property NSString *stTitleSelected;
 @property NSString *stDescriptionSelected;
 @property NSString *stPhotoSelected;

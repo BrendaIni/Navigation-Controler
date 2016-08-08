@@ -23,6 +23,9 @@
 		8514F6041D446CEF001AD776 /* SanLuis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8514F5FF1D446CEF001AD776 /* SanLuis.jpg */; };
 		8514F6051D446CEF001AD776 /* Sinaloa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8514F6001D446CEF001AD776 /* Sinaloa.jpeg */; };
 		85C630821D45B4DC002FF1BF /* DestinationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C630811D45B4DC002FF1BF /* DestinationDetails.m */; };
+		85C630861D57EC25002FF1BF /* cellCity.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C630841D57EC25002FF1BF /* cellCity.m */; };
+		85C630871D57EC25002FF1BF /* cellCity.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85C630851D57EC25002FF1BF /* cellCity.xib */; };
+		85C6308A1D580423002FF1BF /* CityDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C630891D580423002FF1BF /* CityDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,11 @@
 		8514F6001D446CEF001AD776 /* Sinaloa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sinaloa.jpeg; sourceTree = "<group>"; };
 		85C630801D45B4DC002FF1BF /* DestinationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DestinationDetails.h; sourceTree = "<group>"; };
 		85C630811D45B4DC002FF1BF /* DestinationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DestinationDetails.m; sourceTree = "<group>"; };
+		85C630831D57EC25002FF1BF /* cellCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellCity.h; sourceTree = "<group>"; };
+		85C630841D57EC25002FF1BF /* cellCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellCity.m; sourceTree = "<group>"; };
+		85C630851D57EC25002FF1BF /* cellCity.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellCity.xib; sourceTree = "<group>"; };
+		85C630881D580423002FF1BF /* CityDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDetails.h; sourceTree = "<group>"; };
+		85C630891D580423002FF1BF /* CityDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +155,8 @@
 				8514F5D41D445D3F001AD776 /* Home.m */,
 				85C630801D45B4DC002FF1BF /* DestinationDetails.h */,
 				85C630811D45B4DC002FF1BF /* DestinationDetails.m */,
+				85C630881D580423002FF1BF /* CityDetails.h */,
+				85C630891D580423002FF1BF /* CityDetails.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -166,6 +176,9 @@
 				8514F5F51D4463EB001AD776 /* cellHome.h */,
 				8514F5F61D4463EB001AD776 /* cellHome.m */,
 				8514F5F71D4463EB001AD776 /* cellHome.xib */,
+				85C630831D57EC25002FF1BF /* cellCity.h */,
+				85C630841D57EC25002FF1BF /* cellCity.m */,
+				85C630851D57EC25002FF1BF /* cellCity.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -268,6 +281,7 @@
 				8514F5DD1D445D3F001AD776 /* LaunchScreen.xib in Resources */,
 				8514F6051D446CEF001AD776 /* Sinaloa.jpeg in Resources */,
 				8514F5F91D4463EB001AD776 /* cellHome.xib in Resources */,
+				85C630871D57EC25002FF1BF /* cellCity.xib in Resources */,
 				8514F6031D446CEF001AD776 /* Michoacan.jpg in Resources */,
 				8514F5DA1D445D3F001AD776 /* Images.xcassets in Resources */,
 				8514F6011D446CEF001AD776 /* Chiapas.jpeg in Resources */,
@@ -294,6 +308,8 @@
 				8514F5D51D445D3F001AD776 /* Home.m in Sources */,
 				8514F5D21D445D3F001AD776 /* Navigation_Controller.xcdatamodeld in Sources */,
 				85C630821D45B4DC002FF1BF /* DestinationDetails.m in Sources */,
+				85C630861D57EC25002FF1BF /* cellCity.m in Sources */,
+				85C6308A1D580423002FF1BF /* CityDetails.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

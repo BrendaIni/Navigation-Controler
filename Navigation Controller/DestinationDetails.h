@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Home.h"
+#import "CityDetails.h"
 
 @interface DestinationDetails : UIViewController
 @property NSString *destinationTitle;
